@@ -1,0 +1,11 @@
+project
+
+[user]
+	name = samuel
+	email = ibenjaminsamuel47@gmail.com
+[core]
+	editor = code --wait
+[cprd]
+	autpcrlf = true
+[difftool "vscode"]
+	cmd = "code --wait --diff  $LOCAL $REMOTE "
